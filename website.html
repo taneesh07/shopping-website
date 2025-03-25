@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Polo T-Shirts - E-Commerce</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo"></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Get 20% Off on All U.S. Polo T-Shirts!</h2>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
+
+    
+    <section id="shop" class="products">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="web3.png" alt="T-Shirt 1">
+                <h3>Classic Polo Tee</h3>
+                <p>$29.99</p>
+                <button class="add-to-cart" data-name="Classic Polo Tee" data-price="29.99">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="web4.png" alt="T-Shirt 2">
+                <h3>Slim Fit Polo</h3>
+                <p>$34.99</p>
+                <button class="add-to-cart" data-name="Slim Fit Polo" data-price="34.99">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="web5.png" alt="T-Shirt 3">
+                <h3>Sports Polo Tee</h3>
+                <p>$39.99</p>
+                <button class="add-to-cart" data-name="Sports Polo Tee" data-price="39.99">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="checkout">Proceed to Checkout</button>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.facebook.com/USPoloAssn.India/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/uspoloassnindia/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/uspoloassnin?lang=en"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 U.S. Polo T-Shirts. All Rights Reserved.</p>
+    </footer>
+
+    <script src="website.js"></script>
+</body>
+</html>
