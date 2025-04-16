@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* Navigation Bar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ body {
     color: #ff9900;
 }
 
-/* Banner */
+
 .banner {
     background: url('web2.png') no-repeat center/cover;
     height: 400px;
@@ -71,7 +71,7 @@ body {
     background-color: #e68a00;
 }
 
-/* Products */
+
 .products {
     padding: 4rem 2rem;
     text-align: center;
@@ -115,7 +115,7 @@ body {
     background-color: #333;
 }
 
-/* Cart */
+
 .cart {
     padding: 4rem 2rem;
     text-align: center;
@@ -135,7 +135,7 @@ body {
     border-radius: 5px;
 }
 
-/* Footer */
+
 .footer {
     background-color: #1a1a1a;
     color: white;
